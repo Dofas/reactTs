@@ -1,4 +1,13 @@
+
+*{
+  box-sizing: border-box;
+}
+
 .App {
+  display: flex;
+  justify-content: center;
+  max-width: 1230px;
+  padding: 0 15px;
   text-align: center;
 }
 
