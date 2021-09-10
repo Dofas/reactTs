@@ -1,4 +1,5 @@
 import React, { FC } from "react";
+import './Card.css';
 
 export enum CardVariant {
   outlined = "outlined",
@@ -17,7 +18,7 @@ interface CardProps {
 
 const Card: FC<CardProps> = ({ width, height, variant, children, onClick }) => {
   return ( 
-    <div
+    <div className="card"
       style={{
         height,
         width,

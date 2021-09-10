@@ -6,8 +6,10 @@
 .App {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   max-width: 1230px;
   padding: 0 15px;
-  text-align: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
